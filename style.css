@@ -421,4 +421,5 @@ h2{
     color: honeydew;
     border: 2px solid red;
     border-radius: 15px 50px 30px;
+    background-size: cover;
 }
