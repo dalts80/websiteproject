@@ -1,0 +1,424 @@
+
+*{
+    box-sizing: content-box;
+}
+#mypic{
+    opacity: 0.5;
+}
+  
+#mypic:hover{
+    opacity: 1.0;
+} 
+
+body{ 
+    background-color:rgb(169,169,169);
+    margin: 60px;
+}
+#body2{
+    background-image: url("/background.jpeg");
+    background-size: cover;
+    margin: 60px;
+  
+}
+
+#container{ 
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 20px;
+    border-color: rgb(167, 21,21);
+    /* padding: 10px; */
+}
+
+.container1{
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+}
+.container2{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: sienna;
+    background-image: url("/mount.jpg");
+    padding: 10px;
+    
+}
+.container3{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+
+.container4{
+    display: flex;
+    width: 50%;
+    background-image: url("/back.jpg");
+    background-position-x: right;
+    
+    
+}
+.container5{
+    width: 30%;
+    background-image: url("/back.jpg");
+    background-position: right;
+}
+.container6{
+    background-image: url("/goonies1.jpg");
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container7{
+    display: flex;
+    background-image: url("/funk.jpg");
+    padding-bottom: 10px;
+    height: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+    
+
+#header{
+    flex-wrap: wrap;
+    background-image: url("/blue.webp");
+    background-size: cover;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    border: 2px solid red;
+    border-radius: 15px 50px 30px;
+}
+h1{
+    margin: 0px;
+    font-family: 'Palette Mosaic', cursive;;
+    color: rgb(3, 5, 0);
+}
+h2{
+    display: flex;
+    text-align: center;
+    font-stretch: 50%;
+}
+h3{
+    margin: 0px;
+    font-size: 36px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h4{
+    color:#000;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* #content{
+    padding: 10px;
+    size: 500px;
+    justify-content: left;
+} */
+
+/* #side{
+    width: 500px;
+    float: left;
+} */
+
+#main{
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+   
+    border: none;
+    
+    
+    
+}    
+#main1{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-image: url("/background.jpeg");
+    margin:5px
+} 
+#main3{
+    display: flex;
+    
+}
+
+#mypic1{
+    width: 100%;
+   
+   
+} 
+
+
+#mypic{
+    width: 75%;
+    float: left;
+
+    
+} 
+/* #mypic2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    justify-content: space-evenly;
+}  */
+/* #air{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+   
+} */
+#backpic{
+    width: 50%;
+    float: right;
+    border-radius: 50%;
+}
+#goon{
+    justify-content: right;
+}
+/* #hell1{
+    width: 50%;
+    float: left;
+} */
+
+    
+    
+
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+    
+}
+    
+h2{
+    padding: 10px;
+    margin: 0;
+    color: mediumspringgreen;
+    
+    font-size: 45px;
+    border: orange;
+} 
+
+#navbar{
+    display: flex;
+    background-color:#999999;
+    height: min-content;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-style: inset;
+    border-color: navy;
+
+    
+}
+#navbar a{
+    color: black;
+    opacity: 1;
+    text-decoration: none;
+}
+#navbar1{
+    display: flex;
+    background-color:#999999;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 30px;
+}
+
+
+.text1{
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    justify-content: center;
+    
+    
+}
+.text2{
+    color: seashell;
+    font-size: 20;
+    margin: 10px;
+    border: 0px;
+    
+    
+}
+.text3{
+    float:right;
+    font-size: 35px;
+    
+}
+.textcamp1{
+    justify-content: end;
+    flex-wrap: wrap;
+    border-radius: 15px 50px 30px;
+    
+}
+
+.containera{
+    display: flex;
+    background-image: url("/blue.webp");
+    width: 100%;
+    height: 20%;
+    
+}
+.containerb{
+   flex-wrap: wrap;
+   display: flex;
+    width: 50%;  
+   background-color: cadetblue;
+    width: 30%;
+    height: 20%;
+}
+.containerc{
+    flex-wrap: wrap;
+    
+    width: 50%;
+}
+.containerd{
+    
+   
+}
+.container3a{
+   
+    flex-direction: column;
+
+}
+/* #maincamp{}
+
+
+} */
+#campfire{
+    width: 35%;
+    height: 20%;
+    float: right;
+}
+#backpack{
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding-right: 10px;
+}
+#funnyscout{
+    width: 30%;
+    float: right;
+}
+#luxcamp{
+    float: right;
+    width: 50%;
+}
+#contentcamp{
+    
+   
+}
+.column {
+    flex-direction: row;
+    width: 33.33%;
+}
+.box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+#headcamp1{
+    font-size: 400%;
+    color: blanchedalmond;
+}
+#maincamp{
+    
+}
+.boxa{
+    text-align: left;
+    display: flex;
+   
+}
+.boxb{
+}
+.boxc{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}   
+.textcamp1{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    background-color: floralwhite;
+}
+.textcamp2{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    width: 60%;
+    padding-left: 10px;
+    background-color: blanchedalmond;
+}
+
+#legowar{
+    width:33.3%;
+  
+}
+#legopir{
+    width: 100%;
+}
+#legostar{
+    width: 33.3%;
+    resize: horizontal;
+    overflow: auto;
+}
+.containerlego1{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: sienna;
+    background-image: url("/legomount.jpg");
+    padding: 10px;
+}
+.containerlego2{
+    width: 33.3%;
+    flex-direction: column;
+  
+   
+   
+}
+.containerlego3{
+   
+}
+.containerlego4{
+    display: flex;
+    width: 100%;
+    
+    background-position-x: center;
+    float: left;
+}
+#legotext{
+    font-size: 35px;
+    color: rgb(7, 7, 7);
+    font-family: 'Alegreya', serif;
+}
+#back{
+    text-align: center;
+}
+#pottertext{
+    text-align: center;
+}
+#h1lego{
+    background-image: url("/blue.webp");
+    color: honeydew;
+    border: 2px solid red;
+    border-radius: 15px 50px 30px;
+}
